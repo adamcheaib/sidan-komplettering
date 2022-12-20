@@ -1,0 +1,1422 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./media/desktop/bobbackground.jpg);
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+.helasektionen {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    background-color: rgba(0, 0, 0, 30%);
+    border-radius: 2vw;
+}
+
+.firstsection {
+
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    margin-top: 6vw;
+    margin-bottom: -3vw;
+}
+
+footer {
+    position: relative;
+    bottom: 3vw;
+    left: 2vw;
+    text-align: left;
+    color: white;
+    font-size: 1.2vw;
+}
+
+header {
+    margin-left: 2vw;
+    font-family: "Bungee Shade";
+    color: white;
+    font-size: 4vw;
+    margin-top: -5vw;
+    margin-bottom: 1vw;
+}
+
+.navmenu {
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    gap: 0.8vw;
+    margin-top: -2vw;
+}
+
+.navmenu div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 2.2vw;
+    width: 17vw;
+    height: 6vw;
+    text-align: center;
+    border-radius: 12px;
+    font-family: "Barlow Semi Condensed";
+}
+
+.navmenu div:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.navmenu div:nth-child(2) {
+    font-weight: bold;
+    border: rgba(255, 255, 255, 80%) solid 0.5px;
+    box-shadow: 2px white;
+    box-shadow: 0 0 3px 3px white;
+}
+
+nav .marked {
+    border: rgba(255, 255, 255, 80%) solid 0.5px;
+    box-shadow: 2px white;
+    box-shadow: 0 0 3px 3px white;
+}
+
+nav .marked:hover {
+    border: rgba(255, 255, 255, 80%) solid 0.5px;
+    box-shadow: 2px white;
+    box-shadow: 0 0 3px 3px white;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: default;
+    color: black;
+}
+
+
+/* FÖRSTA ALBUMET */
+
+main {
+    margin-top: 5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 5vw;
+
+}
+
+#catch_a_fire {
+    border: solid 1px white;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-auto-rows: 0.5fr;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.catch_a_fire_titles h1 {
+    font-family: "Bungee Outline";
+    font-size: 4.2vw;
+    margin-top: -0.5vw;
+}
+
+.catch_a_fire_titles h2 {
+    font-size: 2.3vw;
+    margin-top: -7.3vw;
+    margin-left: 0.3vw;
+    font-weight: bold;
+    word-spacing: 0.1vw;
+    font-family: "Barlow Semi Condensed"
+}
+
+.album_description p {
+    font-family: "Barlow Semi Condensed";
+    font-size: 1.2vw;
+    width: 35vw;
+}
+
+.musicians1 {
+    margin-top: 3vw;
+    font-family: "Barlow Semi Condensed";
+    font-size: 1.2vw;
+}
+
+.musicians1 ul {
+    list-style: none;
+    margin-bottom: 3vw;
+}
+
+.album_data {
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+
+.cover {
+    margin-right: -5vw;
+    margin-top: 1vw;
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    align-self: start;
+    grid-template-columns: 1fr;
+    width: 75%;
+    height: 75%;
+}
+
+.show_not_hover1 {
+    grid-row: 1;
+    grid-column: 2;
+    width: 100%;
+    z-index: 1;
+    border-radius: 15px 15px 0 0;
+}
+
+.show_not_hover1:hover {
+    opacity: 0%;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.show_hover1 {
+    width: 100%;
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.show_hover1:hover {
+    z-index: 2;
+}
+
+.song_list1 {
+    display: flex;
+    align-self: ;
+    justify-content: space-evenly;
+    gap: 0.5vw;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-right: -5vw;
+    top: 26vw;
+    position: relative;
+    grid-row: 1;
+    height: 22.5vw;
+}
+
+.song_list1 div {
+    background: linear-gradient(green, yellow, red);
+    color: black;
+    width: 12vw;
+    height: 12.2vw;
+}
+
+.song_list1 div h2 {
+    font-size: 1.4vw;
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.song_list1 div ul {
+    list-style: decimal;
+    font-size: 1.1vw;
+    justify-content: start;
+    position: relative;
+    right: 0.7vw;
+    bottom: 1vw;
+}
+
+
+.song_list1 div:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+    border-radius: 0px 0px 0px 15px;
+    text-align: left;
+}
+
+.song_list1 div:nth-child(2) {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: left;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.anecdotes1 {
+    align-self: end;
+    list-style: none;
+    grid-row: 3;
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    right: 2vw;
+    bottom: 1vw;
+    margin: 0;
+    padding-left: 1.3vw;
+    /**/
+}
+
+.anecdotes1 li:nth-child(2) {
+    display: none;
+}
+
+.anecdotes1 li:nth-child(4) {
+    display: none;
+}
+
+.anecdotes1 li:nth-child(5) {
+    display: none;
+}
+
+.anecdotes1 li {
+    font-family: "Barlow Condensed";
+    font-size: 1.1vw;
+}
+
+.anecdotes1 li:nth-child(1) {
+    box-sizing: border-box;
+    padding: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    height: 100%;
+    width: 10vw;
+    color: black;
+    background: linear-gradient(green, yellow, red);
+    align-self: end;
+    justify-self: start;
+    grid-row: 2;
+    grid-column: 1;
+    position: relative;
+    left: 0.7vw;
+    border-radius: 15px 0px 15px 15px;
+}
+
+.anecdotes1 li:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+    color: black;
+    background: linear-gradient(green, yellow, red);
+    padding: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24vw;
+    height: 11.5vw;
+    justify-self: end;
+    align-self: end;
+    position: relative;
+    left: 0.7vw;
+    box-sizing: border-box;
+    border-radius: 18px 18px 18px 0px;
+}
+
+.anecdotes1 li:nth-child(6) {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    text-shadow: 1px 1px blue;
+    font-size: 0.9vw;
+    width: 9vw;
+    height: 11.5vw;
+    grid-row: 2;
+    grid-column: 3;
+    position: relative;
+    left: 1vw;
+    justify-self: start;
+    align-self: end;
+    border-radius: 0px 15px 15px 15px;
+    background-image: url(./media/desktop/chrisblackwell.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+.anecdotes1 li:nth-child(7) {
+    grid-row: 2;
+    grid-column: 3;
+    justify-self: end;
+    align-self: end;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(green, yellow, red);
+    height: 11.5vw;
+    width: 10vw;
+    padding: 5.5vw 1vw 5.5vw 1vw;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0px 15px;
+    position: relative;
+    left: 0.5vw;
+}
+
+/* ANDRA DELEN */
+
+    #soul_rebel {
+        margin-top: 2vw;
+        border: solid 1px white;
+        color: white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 30vw;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .soul_rebel_titles h1 {
+        font-family: "Bungee Outline";
+        font-size: 4.2vw;
+        margin-top: -0.5vw;
+    }
+
+    .soul_rebel_titles h2 {
+        font-size: 2.3vw;
+        margin-top: -7.3vw;
+        margin-left: 0.3vw;
+        font-weight: bold;
+        word-spacing: 0.1vw;
+        font-family: "Barlow Semi Condensed"
+    }
+
+    .album_description2 p {
+        font-family: "Barlow Semi Condensed";
+        font-size: 1.2vw;
+    }
+
+    .musicians2 {
+        font-family: "Barlow Semi Condensed";
+        font-size: 1.2vw;
+
+    }
+
+    .musicians2 ul {
+        list-style: none;
+        margin-bottom: 3vw;
+    }
+
+
+    .musicians2 {
+        font-family: "Barlow Semi Condensed";
+        font-size: 1.2vw;
+        margin-bottom: 3vw;
+    }
+
+    .musicians2 ul {
+        list-style: none;
+        margin-bottom: 3vw;
+    }
+
+    .album_data2 {
+        grid-row: 1;
+        grid-column: 1 / 2;
+    }
+
+    .cover2 {
+        margin-right: -5vw;
+        margin-top: 1vw;
+        justify-self: center;
+        grid-column: 2;
+        grid-row: 1;
+        display: grid;
+        align-self: start;
+        grid-template-columns: 1fr;
+        width: 75%;
+        height: 75%;
+    }
+
+    .show_not_hover2 {
+        grid-row: 1;
+        grid-column: 2;
+        width: 100%;
+        z-index: 1;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .show_not_hover2:hover {
+        opacity: 0%;
+        transition-property: opacity;
+        transition-duration: 1s;
+    }
+
+    .show_hover2 {
+        width: 100%;
+        height: 100%;
+        grid-row: 1;
+        grid-column: 2;
+        z-index: 0;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .show_hover2:hover {
+        z-index: 2;
+    }
+
+    .song_list2 {
+        display: flex;
+        align-self: end;
+        justify-content: space-evenly;
+        gap: 0.5vw;
+        grid-column: 2;
+        justify-self: center;
+        margin-right: -5vw;
+        position: relative;
+        top: 18vw;
+        grid-row: 1;
+        height: 22vw;
+        width: 25vw;
+    }
+
+    .song_list2 ul li:nth-child(6) {
+        display: none;
+    }
+
+    .song_list2 ul li:nth-child(7) {
+        display: none;
+    }
+
+    .song_list2 div {
+        background: linear-gradient(green, yellow, red);
+        color: black;
+        width: 12vw;
+        height: 12.2vw;
+    }
+
+    .song_list2 div h2 {
+        font-size: 1.4vw;
+        text-align: left;
+        margin-left: 2vw;
+        margin-top: 2vw;
+    }
+
+    .song_list2 div ul {
+        list-style: decimal;
+        font-size: 1.1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+        right: 0.7vw;
+        bottom: 1vw;
+    }
+
+
+    .song_list2 div:nth-child(1) {
+        grid-row: 1;
+        grid-column: 1;
+        border-radius: 0px 0px 0px 15px;
+        text-align: left;
+    }
+
+    .song_list2 div:nth-child(2) {
+        grid-row: 1;
+        grid-column: 2;
+        border-radius: 0px 0px 15px 0px;
+    }
+
+    .anecdotes2 {
+        align-self: end;
+        list-style: none;
+        grid-row: 2;
+        grid-column: 1 / 4;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        grid-template-rows: 9.5vw;
+        position: relative;
+        right: 2vw;
+        bottom: 1vw;
+        margin: 0;
+        padding-left: 1.3vw;
+    }
+
+    .anecdotes2 li:nth-child(5) {
+        display: none;
+    }
+
+    .anecdotes2 li {
+        font-family: "Barlow Condensed";
+        font-size: 1vw;
+    }
+
+    .anecdotes2 li:nth-child(1) {
+        box-sizing: border-box;
+        padding: 0.8vw;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: left;
+        height: 11.5vw;
+        width: 21vw;
+        color: black;
+        background: linear-gradient(green, yellow, red);
+        align-self: end;
+        justify-self: start;
+        grid-row: 2;
+        grid-column: 1;
+        position: relative;
+        left: 0.7vw;
+        border-radius: 15px 15px 15px 0px;
+    }
+
+    .anecdotes2 li:nth-child(2) {
+        grid-column: 2;
+        grid-row: 2;
+        color: black;
+        background: linear-gradient(green, yellow, red);
+        padding: 0.8vw;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 9vw;
+        height: 11.5vw;
+        justify-self: start;
+        align-self: end;
+        position: relative;
+        left: 1vw;
+        box-sizing: border-box;
+        border-radius: 18px 18px 18px 0px;
+    }
+
+    .anecdotes2 li:nth-child(5) {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px blue;
+        font-size: 0.9vw;
+        width: 23.5vw;
+        height: 11.5vw;
+        grid-row: 2;
+        grid-column: 2;
+        position: relative;
+        left: 5.5vw;
+        justify-self: end;
+        align-self: end;
+        border-radius: 0px 15px 15px 15px;
+        background-image: url(./media/desktop/400\ years.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .anecdotes2 li:nth-child(6) {
+        grid-row: 2;
+        grid-column: 3;
+        justify-self: end;
+        align-self: end;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(green, yellow, red);
+        height: 11.5vw;
+        width: 8.5vw;
+        padding: 5.5vw 1vw 5.5vw 1vw;
+        box-sizing: border-box;
+        border-radius: 15px 15px 0px 15px;
+    }
+
+
+    /*Font media query. Texten ska sluta växa från och med 1111px width.
+ Mellan 900px och 1111px så ska texten växa och minskas beroende på webbsidans storlek.
+  Mindre än 900px så ska texten SLUTA sjunka. ALL TEXT SKA JUSTERAS */
+
+
+    @media (min-width: 1111px) {
+        header {
+            font-size: 45px;
+        }
+
+
+        .navmenu div {
+            font-size: 25px;
+        }
+
+        /*första albumet*/
+
+        .catch_a_fire_titles h1 {
+            font-size: 47px;
+        }
+
+        .catch_a_fire_titles h2 {
+            font-size: 25px;
+            margin-top: -80px;
+            margin-left: 0.2vw;
+        }
+
+        .musicians1 {
+            font-size: 14px;
+        }
+
+        .album_description p {
+            width: 35vw;
+            font-size: 14px;
+        }
+
+        .song_list1 div h2 {
+            font-size: 16px;
+            margin-left: 2vw;
+            margin-top: 2vw;
+        }
+
+        .song_list1 div ul {
+            font-size: 12.5px;
+            margin-top: 1.5vw;
+        }
+
+        .anecdotes1 li {
+            font-size: 13px;
+        }
+
+        /* andra albumet */
+
+        .soul_rebel_titles h1 {
+            font-size: 47px;
+        }
+
+        .soul_rebel_titles h2 {
+            font-size: 25px;
+            margin-top: -80px;
+            margin-left: 0.2vw;
+        }
+
+        .musicians2 {
+            font-size: 14px;
+        }
+
+        .album_description2 p {
+            font-size: 14px;
+        }
+
+        .song_list2 div h2 {
+            font-size: 16px;
+            margin-left: 15px;
+            margin-top: 2vw;
+        }
+
+        .song_list2 div ul {
+            font-size: 12.5px;
+            margin-top: 1.5vw;
+        }
+
+        .anecdotes2 li {
+            font-size: 12px;
+        }
+    }
+
+    /* FIXA FÖRSTA MEDIA QUERY PÅ FONTEN. Efter 900px i bredd så ska texten sluta minskas!!! */
+
+    @media (max-width: 900px) and (min-width: 801px) {
+        header {
+            font-size: 36px;
+        }
+
+        .navmenu div {
+            font-size: 19px;
+        }
+
+        .catch_a_fire_titles h1 {
+            font-size: 38px;
+        }
+
+        .catch_a_fire_titles h2 {
+            font-size: 21px;
+        }
+
+        .musicians1 {
+            font-size: 11px;
+        }
+
+        .album_description p {
+            font-size: 11px;
+        }
+
+        .song_list1 div h2 {
+            font-size: 12px;
+        }
+
+        .song_list1 div ul {
+            font-size: 8.5px;
+        }
+
+        .anecdotes1 li {
+            font-size: 9px;
+        }
+
+        /* Andra Albumet */
+
+        .soul_rebel_titles h1 {
+            font-size: 38px;
+        }
+
+        .soul_rebel_titles h2 {
+            font-size: 21px;
+        }
+
+        .musicians2 {
+            font-size: 11px;
+        }
+
+        .album_description2 p {
+            font-size: 11px;
+        }
+
+        .song_list2 div h2 {
+            font-size: 12px;
+        }
+
+        .song_list2 div ul {
+            font-size: 10px;
+        }
+
+        .anecdotes2 {
+            font-size: 9px;
+        }
+    }
+
+    @media (min-width: 501px) and (max-width: 800px) {
+        body {
+            background-image: url(./media/phone-tablet/bobbackground-tab.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+
+        header {
+            text-align: center;
+            margin-bottom: -3.5vw;
+        }
+
+
+        .album_data {
+            grid-row: 2;
+            position: relative;
+            top: 3.5vw;
+            grid-column: 1 / 3;
+        }
+
+        .show_hover1 {
+            display: none;
+        }
+
+        .show_not_hover1:hover {
+            opacity: 100%;
+        }
+
+        .cover {
+            grid-column: 1;
+            justify-self: start;
+            width: 35vw;
+        }
+
+        .show_hover1 {
+            border-radius: 15px 0 0 15px;
+        }
+
+        .show_not_hover1 {
+            border-radius: 15px 0 0 15px;
+        }
+
+        .song_list1 {
+            top: 0;
+            flex-direction: column;
+            width: 32vw;
+            height: 35vw;
+            top: 6vw;
+            left: 0.5vw;
+        }
+
+        .song_list1 div {
+            width: 29vw;
+            height: 35vw;
+        }
+
+        .song_list1 div:nth-child(1) {
+            border-radius: 0 15px 0 0;
+        }
+
+        .song_list1 div:nth-child(2) {
+            border-radius: 0 0 15px 0;
+        }
+
+        .song_list1 div h2 {
+            font-size: 2.5vw;
+        }
+
+        .song_list1 div ul {
+            font-size: 1.5vw;
+        }
+
+        .catch_a_fire_titles h1 {
+            font-size: 6vw;
+        }
+
+        .catch_a_fire_titles h2 {
+            margin-top: -9vw;
+            font-size: 2.7vw;
+        }
+
+        .musicians1 {
+            font-size: 1.5vw;
+        }
+
+        .album_description p {
+            font-size: 1.5vw;
+            width: 67vw;
+        }
+
+        .anecdotes1 {
+            margin-top: 8vw;
+            grid-row: 3;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .anecdotes1 li:nth-child(1) {
+            grid-row: 1;
+            width: 13vw;
+            height: 14vw;
+            font-size: 1.4vw;
+        }
+
+        .anecdotes1 li:nth-child(3) {
+            height: 14vw;
+            width: 33vw;
+            font-size: 1.4vw;
+            grid-row: 1;
+            grid-column: 2;
+            justify-self: start;
+        }
+
+        .anecdotes1 li:nth-child(6) {
+            background-image: url(./media/phone-tablet/chrisblackwell-tab.jpg);
+            background-position: right;
+            background-size: cover;
+            height: 14vw;
+            left: 0;
+            grid-column: 1;
+            width: 11vw;
+            justify-self: end;
+        }
+
+        .anecdotes1 li:nth-child(7) {
+            height: 13.8vw;
+            grid-column: 2;
+            justify-self: start;
+            position: relative;
+            left: 0.5vw;
+            font-size: 1.2vw;
+        }
+
+        /* Andra albumet */
+
+        .album_data2 {
+            grid-row: 2;
+            position: relative;
+            top: 3.5vw;
+            grid-column: 1 / 3;
+        }
+
+        .cover2 {
+            grid-column: 1;
+            justify-self: start;
+            width: 35vw;
+        }
+
+        .show_hover2 {
+            display: none;
+        }
+
+        .show_not_hover2 {
+            border-radius: 15px 0 0 15px;
+        }
+
+        .show_not_hover2:hover {
+            opacity: 100%;
+        }
+
+        .song_list2 {
+            flex-direction: column;
+            width: 32vw;
+            height: 35vw;
+            position: relative;
+            top: 6vw;
+            left: 0.5vw;
+        }
+
+        .song_list2 div {
+            width: 29vw;
+            height: 19vw;
+        }
+
+        .song_list2 div:nth-child(1) {
+            border-radius: 0 15px 0 0;
+        }
+
+        .song_list2 div:nth-child(2) {
+            border-radius: 0 0 15px 0;
+        }
+
+        .song_list2 div h2 {
+            font-size: 2.2vw;
+        }
+
+        .song_list2 div ul {
+            font-size: 1.4vw;
+        }
+
+        .soul_rebel_titles h1 {
+            font-size: 6vw;
+        }
+
+        .soul_rebel_titles h2 {
+            margin-top: -9vw;
+            font-size: 2.7vw;
+        }
+
+        .musicians2 {
+            font-size: 1.5vw;
+        }
+
+        .album_description2 p {
+            font-size: 1.5vw;
+        }
+
+        .anecdotes2 {
+            margin-top: 8vw;
+            grid-row: 3;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .anecdotes2 li:nth-child(1) {
+            grid-row: 1;
+            width: 28.5vw;
+            height: 14vw;
+            border-radius: 15px 15px 15px 0;
+            font-size: 1.5vw;
+        }
+
+        .anecdotes2 li:nth-child(2) {
+            height: 14vw;
+            width: 10vw;
+            grid-row: 1;
+            grid-column: 1;
+            justify-self: end;
+            position: relative;
+            left: 11vw;
+            border-radius: 0 15px 15px 15px;
+            font-size: 1.5vw;
+        }
+
+        .anecdotes2 li:nth-child(5) {
+            font-size: 2vw;
+            height: 13.5vw;
+            position: relative;
+            left: 0;
+            right: 35vw;
+            grid-column: 1 / 3;
+            width: 32vw;
+            justify-self: end;
+            background-position: center;
+            background-size: cover;
+            border-radius: 15px;
+            background-image: url(./media/phone-tablet/400\ years-tab.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .anecdotes2 li:nth-child(6) {
+            height: 13.8vw;
+            width: 12vw;
+            font-size: 1.5vw;
+            grid-column: 3;
+            justify-self: start;
+            position: relative;
+            left: 0.5vw;
+        }
+
+    }
+
+    @media (min-width: 1px) and (max-width: 500px) {
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: auto;
+            align-items: center;
+            background-image: url(./media/phone-tablet/bobbackground-tab.jpg);
+            background-position: center;
+            background-size: auto;
+            background-attachment: fixed;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            margin: -5vw 0 25vw 0;
+            font-size: 8vw;
+            line-height: 1.2;
+            text-align: center;
+
+        }
+
+        .helasektionen {
+            align-items: center;
+            border-radius: 0;
+            position: relative;
+            bottom: 10vw;
+            overflow-x: hidden;
+        }
+
+        .navmenu {
+            margin-top: -17vw;
+            margin-bottom: 10vw;
+        }
+
+        .navmenu div {
+            width: 19vw;
+            height: 8vw;
+            font-size: 2.8vw;
+        }
+
+        .firstsection {
+            width: 100vw;
+        }
+
+        #catch_a_fire {
+            height: 157vw;
+            width: 75vw;
+        }
+
+        .cover {
+            grid-column: 1 / 3;
+            display: flex;
+            height: 51vw;
+            width: 74vw;
+            margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+            justify-self: center;
+        }
+
+        .show_not_hover1 {
+            width: 74vw;
+            height: 51vw;
+            margin-top: 1vw;
+            z-index: 1;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .show_not_hover1:hover {
+            opacity: 100%;
+        }
+
+        .show_hover1 {
+            display: none;
+        }
+
+        .song_list1 {
+            position: relative;
+            top: 45vw;
+            margin: 0;
+            width: 100%;
+            grid-column: 1 / 3;
+            justify-self: center;
+        }
+
+        .song_list1 div {
+            width: 49%;
+            height: 100%;
+        }
+
+        .song_list1 div h2 {
+            font-size: 3vw;
+            position: relative;
+            left: 1vw;
+        }
+
+        .song_list1 div ul {
+            width: 100%;
+            font-size: 2.3vw;
+            padding: 0;
+            position: relative;
+            left: 5vw;
+            bottom: 2vw;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .album_data {
+            margin-top: 74vw;
+        }
+
+        .catch_a_fire_titles h1 {
+            font-size: 7vw;
+            position: relative;
+            bottom: 3.5vw;
+        }
+
+        .catch_a_fire_titles h2 {
+            position: relative;
+            bottom: 8vw;
+            font-size: 3.5vw;
+            margin-bottom: -4.5vw;
+        }
+
+        .musicians1 {
+            font-size: 2vw;
+            margin-bottom: 5vw;
+        }
+
+        .album_description {
+            grid-column: 1 / 3;
+            width: 100%;
+        }
+
+        .album_description p {
+            font-size: 1.5vw;
+            width: 100%;
+        }
+
+        .anecdotes1 {
+            padding: 0;
+            right: 0;
+            grid-template-rows: 40vw;
+        }
+
+        .anecdotes1 li {
+            font-family: "Barlow Condensed";
+            font-size: 1.3vw;
+        }
+
+        .anecdotes1 li:nth-child(1) {
+            grid-row: 1 / 2;
+            width: 13vw;
+            height: 50%;
+            border-radius: 10px 0 10px 10px;
+            align-self: start;
+            font-size: 2vw;
+        }
+
+        .anecdotes1 li:nth-child(3) {
+            grid-row: 1;
+            grid-column: 2;
+            justify-self: end;
+            align-self: start;
+            height: 50%;
+            width: 61vw;
+            border-radius: 10px 10px 10px 0;
+            position: relative;
+            left: 1vw;
+            font-size: 2vw;
+        }
+
+        .anecdotes1 li:nth-child(6) {
+            background-image: url(./media/phone-tablet/chrisblackwell-tab.jpg);
+            background-position: right;
+            background-size: cover;
+            height: 49%;
+            width: 30vw;
+            font-size: 2.5vw;
+            justify-self: start;
+            grid-row: 1;
+            grid-column: 2;
+        }
+
+        .anecdotes1 li:nth-child(7) {
+            grid-row: 1;
+            grid-column: 2;
+            height: 49%;
+            width: 30vw;
+            position: relative;
+            left: 16vw;
+            justify-self: center;
+            font-size: 2vw;
+
+        }
+
+        /* Andra albumet */
+
+        #soul_rebel {
+            height: 157vw;
+            width: 75vw;
+        }
+
+        .cover2 {
+            grid-column: 1 / 3;
+            display: flex;
+            height: 51vw;
+            width: 74vw;
+            margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+            justify-self: center;
+        }
+
+        .show_not_hover2 {
+            width: 74vw;
+            height: 51vw;
+            margin-top: 1vw;
+            z-index: 1;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .show_not_hover2:hover {
+            opacity: 100%;
+        }
+
+        .show_hover2 {
+            display: none;
+        }
+
+        .song_list2 {
+            position: relative;
+            top: 45vw;
+            margin: 0;
+            width: 100%;
+            grid-column: 1 / 3;
+            justify-self: center;
+        }
+
+        .song_list2 div {
+            width: 100%;
+            height: 100%;
+        }
+
+        .song_list2 div h2 {
+            font-size: 3vw;
+            position: relative;
+            left: 1vw;
+        }
+
+        .song_list2 div ul {
+            width: 100%;
+            font-size: 2.3vw;
+            padding: 0;
+            position: relative;
+            left: 5vw;
+            bottom: 2vw;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .album_data2 {
+            margin-top: 74vw;
+            grid-column: 1 / 3;
+        }
+
+        .soul_rebel_titles h1 {
+            font-size: 7vw;
+            position: relative;
+            bottom: 3.5vw;
+        }
+
+        .soul_rebel_titles h2 {
+            position: relative;
+            bottom: 8vw;
+            font-size: 3.5vw;
+            margin-bottom: -4.5vw;
+        }
+
+        .musicians2 {
+            font-size: 2vw;
+            margin-bottom: 5vw;
+        }
+
+        .album_description2 {
+            grid-column: 1 / 3;
+            width: 100%;
+        }
+
+        .album_description2 p {
+            font-size: 1.5vw;
+            width: 100%;
+        }
+
+        .anecdotes2 {
+            padding: 0;
+            right: 0;
+            display: grid;
+            grid-template-rows: 40vw;
+            grid-template-columns: 0.5fr 0.5fr;
+        }
+
+        .anecdotes2 li {
+            font-family: "Barlow Condensed";
+            font-size: 1.3vw;
+            grid-template-columns: 1fr 0.5fr;
+        }
+
+        .anecdotes2 li:nth-child(1) {
+            grid-row: 1 / 2;
+            grid-column: 1;
+            width: 140%;
+            height: 50%;
+            border-radius: 10px 10px 10px 0;
+            align-self: start;
+            font-size: 2vw;
+        }
+
+        .anecdotes2 li:nth-child(2) {
+            grid-row: 1;
+            grid-column: 2;
+            justify-self: end;
+            align-self: start;
+            height: 50%;
+            width: 58%;
+            border-radius: 0 10px 10px 10px;
+            font-size: 2vw;
+        }
+
+        .anecdotes2 li:nth-child(5) {
+            height: 49%;
+            width: 140%;
+            font-size: 2.5vw;
+            justify-self: start;
+            grid-row: 1;
+            grid-column: 1;
+            left: 1vw;
+            background-image: url(./media/phone-tablet/400\ years-tab.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .anecdotes2 li:nth-child(6) {
+            grid-row: 1;
+            grid-column: 2;
+            height: 49%;
+            width: 55%;
+            justify-self: end;
+            font-size: 2vw;
+
+        }
+
+        footer {
+            font-size: 2vw;
+        }
+
+        /* KOLLA VARFÖR DET FINNS HORISONTELLT SCROLL */
+
+    }
