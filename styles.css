@@ -803,6 +803,11 @@ main {
         margin-bottom: -3.5vw;
     }
 
+    .navmenu {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
 
     .album_data {
         grid-row: 1;
@@ -1099,8 +1104,7 @@ main {
     }
 
     .navmenu {
-        margin-top: -17vw;
-        margin-bottom: 10vw;
+        margin-top: 100vw;
     }
 
     .navmenu div {
