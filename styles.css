@@ -834,12 +834,15 @@ main {
     }
 
     .song_list1 {
+        grid-row: 1;
         top: 0;
         flex-direction: column;
-        width: 32vw;
-        height: 35vw;
+        height: 50%;
         top: 6vw;
         left: 0.5vw;
+        gap: 0;
+        margin-top: 0.5vw;
+        margin-left: 0.5vw;
     }
 
     .song_list1 div {
