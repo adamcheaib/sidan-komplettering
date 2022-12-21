@@ -999,13 +999,9 @@ main {
         font-size: 1.4vw;
     }
 
-    .soul_rebel_titles {
-        margin-top: 2vw;
-    }
-
     .soul_rebel_titles h1 {
         font-size: 6vw;
-        margin-top:
+        margin-top: 1vw;
     }
 
     .soul_rebel_titles h2 {
@@ -1111,10 +1107,6 @@ main {
         overflow-x: hidden;
     }
 
-    .navmenu {
-        margin-top: 100vw;
-    }
-
     .navmenu div {
         width: 19vw;
         height: 8vw;
@@ -1126,23 +1118,19 @@ main {
     }
 
     #catch_a_fire {
-        height: 157vw;
+        height: 182vw;
         width: 75vw;
     }
 
     .cover {
         grid-column: 1 / 3;
         display: flex;
-        height: 51vw;
-        width: 74vw;
-        margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+        width: 100%;
         justify-self: center;
     }
 
     .show_not_hover1 {
-        width: 74vw;
-        height: 51vw;
-        margin-top: 1vw;
+        width: 100%;
         z-index: 1;
         border-radius: 15px 15px 0 0;
     }
@@ -1156,8 +1144,6 @@ main {
     }
 
     .song_list1 {
-        position: relative;
-        top: 45vw;
         margin: 0;
         width: 100%;
         grid-column: 1 / 3;
@@ -1188,20 +1174,24 @@ main {
     }
 
     .album_data {
-        margin-top: 74vw;
+        grid-row: 3;
+        align-self: start;
+    }
+
+    .catch_a_fire_titles {
+        grid-row: 2;
+        align-self: start;
+        margin: 0;
     }
 
     .catch_a_fire_titles h1 {
+        margin: 0;
         font-size: 7vw;
-        position: relative;
-        bottom: 3.5vw;
     }
 
     .catch_a_fire_titles h2 {
-        position: relative;
-        bottom: 8vw;
-        font-size: 3.5vw;
-        margin-bottom: -4.5vw;
+        margin: 0;
+        font-size: 3vw;
     }
 
     .musicians1 {
@@ -1222,7 +1212,8 @@ main {
     .anecdotes1 {
         padding: 0;
         right: 0;
-        grid-template-rows: 40vw;
+        grid-template-rows: 1fr 0.2fr;
+        grid-row: 4;
     }
 
     .anecdotes1 li {
@@ -1232,23 +1223,21 @@ main {
 
     .anecdotes1 li:nth-child(1) {
         grid-row: 1 / 2;
-        width: 13vw;
-        height: 50%;
+        height: 100%;
+        width: 100%;
         border-radius: 10px 0 10px 10px;
         align-self: start;
         font-size: 2vw;
     }
 
     .anecdotes1 li:nth-child(3) {
-        grid-row: 1;
-        grid-column: 2;
+        grid-row: 1 / 2;
+        grid-column: 2 / 4;
         justify-self: end;
         align-self: start;
-        height: 50%;
-        width: 61vw;
+        width: 99%;
+        height: 96%;
         border-radius: 10px 10px 10px 0;
-        position: relative;
-        left: 1vw;
         font-size: 2vw;
     }
 
@@ -1256,21 +1245,25 @@ main {
         background-image: url(./media/phone-tablet/chrisblackwell-tab.jpg);
         background-position: right;
         background-size: cover;
-        height: 49%;
-        width: 30vw;
+        width: 100%;
+        height: 100%;
         font-size: 2.5vw;
         justify-self: start;
-        grid-row: 1;
+        align-self: start;
+        grid-row: 2;
         grid-column: 2;
+        position: none;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 
     .anecdotes1 li:nth-child(7) {
-        grid-row: 1;
-        grid-column: 2;
-        height: 49%;
-        width: 30vw;
-        position: relative;
-        left: 16vw;
+        grid-row: 2;
+        grid-column: 3;
+        height: 100%;
+        width: 100%;
         justify-self: center;
         font-size: 2vw;
 
