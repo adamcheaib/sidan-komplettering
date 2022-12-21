@@ -805,9 +805,8 @@ main {
 
 
     .album_data {
-        grid-row: 2;
-        position: relative;
-        top: 3.5vw;
+        grid-row: 1;
+        align-self: end;
         grid-column: 1 / 3;
     }
 
@@ -868,11 +867,13 @@ main {
 
     .catch_a_fire_titles h1 {
         font-size: 6vw;
+        margin: 0;
     }
 
     .catch_a_fire_titles h2 {
-        margin-top: -9vw;
         font-size: 2.7vw;
+        margin: 0;
+        margin-left: 0.5vw;
     }
 
     .musicians1 {
