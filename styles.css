@@ -906,6 +906,7 @@ main {
         height: 100%;
         grid-row: 2;
         grid-template-columns: 1fr 1fr;
+        box-sizing: border-box;
     }
 
     .anecdotes1 li:nth-child(1) {
@@ -1217,8 +1218,9 @@ main {
     .anecdotes1 {
         padding: 0;
         right: 0;
-        grid-template-rows: 1fr 0.2fr;
+        grid-template-rows: 1fr 1fr;
         grid-row: 4;
+        height: 100%;
     }
 
     .anecdotes1 li {
@@ -1379,6 +1381,7 @@ main {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 0.5fr 1fr;
         grid-row: 4;
+        height: 100%;
     }
 
     .anecdotes2 li {
