@@ -124,15 +124,19 @@ main {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.catch_a_fire_titles {
+    margin-bottom: 1vw;
+}
+
 .catch_a_fire_titles h1 {
     font-family: "Bungee Outline";
     font-size: 4.2vw;
-    margin-bottom: 1vw;
+    margin: 0;
 }
 
 .catch_a_fire_titles h2 {
     font-size: 2.3vw;
-    margin-left: 0.3vw;
+    margin: 0;
     font-weight: bold;
     word-spacing: 0.1vw;
     font-family: "Barlow Semi Condensed"
@@ -381,15 +385,19 @@ main {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.soul_rebel_titles {
+    margin-bottom: 1vw;
+}
+
 .soul_rebel_titles h1 {
     font-family: "Bungee Outline";
     font-size: 4.2vw;
-    margin-bottom: 1vw;
+    margin: 0;
 }
 
 .soul_rebel_titles h2 {
     font-size: 2.3vw;
-    margin-left: 0.3vw;
+    margin: 0;
     font-weight: bold;
     word-spacing: 0.1vw;
     font-family: "Barlow Semi Condensed"
