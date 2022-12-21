@@ -789,6 +789,9 @@ main {
     }
 }
 
+
+/* Tablet mode */
+
 @media (min-width: 501px) and (max-width: 800px) {
     body {
         background-image: url(./media/phone-tablet/bobbackground-tab.jpg);
@@ -804,8 +807,8 @@ main {
     }
 
     .navmenu {
-        margin-top: 5vw;
-        margin-bottom: 5vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
     }
 
 
