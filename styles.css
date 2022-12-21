@@ -377,7 +377,7 @@ main {
     border-radius: 10px;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: 30vw;
+    grid-template-rows: 1fr 0.5fr;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -402,6 +402,7 @@ main {
 .album_description2 p {
     font-family: "Barlow Semi Condensed";
     font-size: 1.2vw;
+    width: 32vw;
 }
 
 .musicians2 {
@@ -433,7 +434,6 @@ main {
 }
 
 .cover2 {
-    margin-right: -5vw;
     margin-top: 1vw;
     justify-self: center;
     grid-column: 2;
@@ -441,8 +441,7 @@ main {
     display: grid;
     align-self: start;
     grid-template-columns: 1fr;
-    width: 75%;
-    height: 75%;
+    width: 100%;
 }
 
 .show_not_hover2 {
@@ -474,17 +473,21 @@ main {
 
 .song_list2 {
     display: flex;
-    align-self: end;
+    align-self: start;
     justify-content: space-evenly;
     gap: 0.5vw;
     grid-column: 2;
+    grid-row: 2;
     justify-self: center;
-    margin-right: -5vw;
-    position: relative;
-    top: 18vw;
-    grid-row: 1;
-    height: 22vw;
-    width: 25vw;
+    height: 90%;
+    width: 100%;
+    margin-top: 0.5vw;
+}
+
+.song_list2 div {
+    background: linear-gradient(green, yellow, red);
+    color: black;
+    width: 100%;
 }
 
 .song_list2 ul li:nth-child(6) {
@@ -495,12 +498,6 @@ main {
     display: none;
 }
 
-.song_list2 div {
-    background: linear-gradient(green, yellow, red);
-    color: black;
-    width: 12vw;
-    height: 12.2vw;
-}
 
 .song_list2 div h2 {
     font-size: 1.4vw;
@@ -535,18 +532,18 @@ main {
 }
 
 .anecdotes2 {
-    align-self: end;
+    align-self: center;
     list-style: none;
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1 / 4;
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-rows: 9.5vw;
+    grid-template-rows: 1fr;
     position: relative;
-    right: 2vw;
     bottom: 1vw;
     margin: 0;
     padding-left: 1.3vw;
+    margin-top: 0.5vw;
 }
 
 .anecdotes2 li:nth-child(5) {
@@ -565,7 +562,7 @@ main {
     align-items: center;
     justify-content: start;
     text-align: left;
-    height: 11.5vw;
+    height: 100%;
     width: 21vw;
     color: black;
     background: linear-gradient(green, yellow, red);
